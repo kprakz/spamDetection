@@ -3,8 +3,8 @@ from pydantic import BaseModel
 import joblib
 
 #Load model and vectorizer
-model = joblib.load(r'models\logreg_bow.pkl')
-vectorizer = joblib.load(r'vectorizer\bow_vectorizer.pkl')
+model = joblib.load(r'models//logreg_bow.pkl')
+vectorizer = joblib.load(r'vectorizer//bow_vectorizer.pkl')
 
 app = FastAPI()
 
