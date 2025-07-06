@@ -43,14 +43,14 @@ Run the API:
 uvicorn app:app --reload
 
 ### 5. Project Structure
-spamdetection/
+spamdetection/ <br>
 │
-├── app.py                          # FastAPI app
-├── models/logreg_bow.pkl           # Trained Logistic Regression model
-├── vectorizer/bow_vectorizer.pkl   # TF-IDF vectorizer
-├── test/response_test.py           # Pre-deifned test phrase
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project documentation
+├── app.py                          # FastAPI app <br>
+├── models/logreg_bow.pkl           # Trained Logistic Regression model <br>
+├── vectorizer/bow_vectorizer.pkl   # TF-IDF vectorizer <br>
+├── test/response_test.py           # Pre-deifned test phrase <br>
+├── requirements.txt                # Python dependencies <br>
+└── README.md                       # Project documentation <br>
 
 ### 6. Gmail Automation (Optional)
 You can integrate this with the Gmail API to automatically detect spam from your inbox and log the results. (Coming soon...)
